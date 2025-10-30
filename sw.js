@@ -3,12 +3,12 @@ const VERSION = "v1";
 const CACHE_NAME = `pwa/1.sound-app-${VERSION}`;
 
 const APP_STATIC_RESOURCES = [
-  "/pwa/1.sound-app/",
-  "/pwa/1.sound-app/index.html",
-  "/pwa/1.sound-app/dist/bundle.js",
-  "/pwa/1.sound-app/style.css",
-  "/pwa/1.sound-app/images/sound-app-icon.png",
-  "/pwa/1.sound-app/sound-app.webmanifest"
+  "/pwa_1.sound-app/",
+  "/pwa_1.sound-app/index.html",
+  "/pwa_1.sound-app/dist/bundle.js",
+  "/pwa_1.sound-app/style.css",
+  "/pwa_1.sound-app/images/sound-app-icon.png",
+  "/pwa_1.sound-app/sound-app.webmanifest"
 ];
 
 self.addEventListener("install", (event) => {
