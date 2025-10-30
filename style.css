@@ -1,0 +1,48 @@
+.Player {
+	width:100%;
+	background: gray;
+	margin :0 auto;
+
+	& .ConfigsTable {
+		width:100%;
+		text-align: center;
+	}
+
+	& .SoundController {
+	    background-color: skyblue;
+	    padding: 10px;
+		touch-action: none;
+
+		& .ChangeSoundButtons {
+			height: 80vh;
+			text-align: center;
+			display: flex;
+		    flex-direction: column;       /* 縦並び */
+		    justify-content: space-between; /* 上下に均等配置 */
+
+			& div {
+				height : 33%;
+			}
+
+			& button {
+				height: 80%;
+				aspect-ratio : 1/1;
+				border-radius: 50%;
+				margin-bottom: 20px;
+
+				&[name="one"] {
+					background-color: red;
+				}
+				&[name="two"] {
+					background-color: green;
+				}
+				&[name="three"] {
+					background-color: blue;
+				}
+				&:active {
+					opacity: 0.5;
+				}
+			}
+		}
+	}
+}

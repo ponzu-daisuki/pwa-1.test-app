@@ -1,0 +1,14 @@
+{
+  "name": "pwa/1.sound-app",
+  "short_name": "1.TA",
+  "start_url": "/pwa/1.sound-app/index.html",
+  "theme_color": "#eeffee",
+  "background_color": "#00ff00",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "images/sound-app-icon.png",
+      "sizes": "512x512"
+    }
+  ]
+}
